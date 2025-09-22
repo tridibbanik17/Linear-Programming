@@ -1,0 +1,16 @@
+Maximize
+ obj: 100000 x1 + 40000 x2 + 18000 x3
+Subject To
+ budget: 2000 x1 + 600 x2 + 300 x3 <= 18200
+ wklyads: x2 <= 10
+ halfradio: x3 - x1 - x2 <= 0
+ ytten: - 9 x1 + x2 + x3 <= 0
+ onemin: x1 >= 0
+ twomin: x2 >= 0
+ thrmin: x3 >= 0
+
+General
+  x1
+  x2
+  x3
+End
