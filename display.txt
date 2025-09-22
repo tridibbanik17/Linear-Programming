@@ -1,0 +1,2 @@
+display solution variables -
+display solution slacks - 
